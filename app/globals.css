@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+  cursor: pointer;
+  background-color: rgb(75, 0, 130);
+}
+
+.btn:active {
+  background-color: rgba(75, 0, 130,0.8);
+}
+
+@media (max-width:280px) {
+
+  .ju {
+    flex-direction: column;
+  }
+  
+}
